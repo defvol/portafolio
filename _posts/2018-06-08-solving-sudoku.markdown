@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Solving Sudoku puzzles using constraint programming"
-date:   2019-01-19 19:41:14 -0800
+date:   2018-06-08 19:41:14 -0800
 categories: posts
 ---
 
