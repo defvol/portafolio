@@ -13,8 +13,8 @@ Some fun facts about the setup of this project include:
 
 * Static site generated using [Jekyll](http://jekyllrb.com)
 * Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [VIM](https://www.vim.org), an amazing code editor
-* Template designed by [@mdo](https://twitter.com/mdo).
+* Coded with [VIM](https://www.vim.org), the best code editor
+* Template designed by [@mdo](https://twitter.com/mdo)
 
 Have questions or suggestions? Feel free to [ask me on Twitter](https://twitter.com/defvol).
 
