@@ -119,3 +119,8 @@ a[href^="#fnref:"] {
 .fab {
   margin: 0 10px 10px 0;
 }
+
+.sidebar-item a:hover {
+  color: $yellow;
+  text-decoration: none;
+}
