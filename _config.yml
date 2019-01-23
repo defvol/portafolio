@@ -25,11 +25,7 @@ paginate: 5
 # About/contact
 author:
   name:              Rod Wilhelmy
-  url:               https://twitter.com/defvol
   email:             rod@sector-efe.net
-
-# Custom vars
-version:             1.0.0
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
