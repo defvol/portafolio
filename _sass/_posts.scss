@@ -65,3 +65,40 @@
     }
   }
 }
+
+/* Tags */
+
+.tags {
+  list-style: none !important;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.tags li {
+  float: left;
+  font-size: 0.8em;
+}
+
+.tag {
+  background: $yellow;
+  border-radius: 3px;
+  color: $gray-5;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 20px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+}
+
+.tag:hover {
+  background-color: $body-color;
+  color: $body-bg;
+}
+
+.post li + li.tag {
+  margin-top: 0;
+}
