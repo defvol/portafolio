@@ -3,6 +3,15 @@ layout: post
 title:  "Automating the search of unmapped roads in satellite imagery"
 date:   2017-02-01 19:41:14 -0800
 categories: posts
+technologies:
+- tensorflow
+- javascript
+- node.js
+- mapbox.js
+topics:
+- convolutional neural networks
+- satellite imagery
+- OpenStreetMap
 ---
 
 ![roads in baja](https://raw.githubusercontent.com/rodowi/unmapped/master/screenshots/missing-roads.jpg)
@@ -147,5 +156,5 @@ The patterns found in satellite imagery resembles a handkerchief.
 - **project**: the unmapped
 - **code**: [unmapped](https://github.com/defvol/unmapped) the engine and
 [mapscan](https://github.com/defvol/mapscan) the frontend
-- **technologies**: tensorflow, javascript, node.js, mapbox.js
-- **topics**: convolutional neural networks, satellite imagery, OpenStreetMap
+- **technologies**: {{ page.technologies | array_to_sentence_string }}
+- **topics**: {{ page.topics | array_to_sentence_string }}

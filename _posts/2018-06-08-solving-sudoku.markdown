@@ -3,6 +3,13 @@ layout: post
 title:  "Solving Sudoku puzzles using constraint programming"
 date:   2018-06-08 19:41:14 -0800
 categories: posts
+technologies:
+- python
+- or-tools
+topics:
+- constraint programming
+- constraint satisfaction problem
+- discrete programming
 ---
 
 I’ve been a big fan of [Sudoku][sudoku] puzzles for years but never asked myself how to programmatically solve them - perhaps I didn’t want to ruin the magic.
@@ -68,8 +75,8 @@ CSP provides an elegant framework to solve problems. As programmers we instincti
 
 - **project**: sudokill
 - **code**: [https://github.com/defvol/sudokill][sudokill]
-- **technologies**: python, or-tools
-- **topics**: constraint programming, constraint satisfaction problem, discrete programming
+- **technologies**: {{ page.technologies | array_to_sentence_string }}
+- **topics**: {{ page.topics | array_to_sentence_string }}
 
 [sudoku]: https://en.wikipedia.org/wiki/Sudoku
 [csp]: https://en.wikipedia.org/wiki/Constraint_satisfaction_problem
