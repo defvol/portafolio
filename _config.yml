@@ -10,6 +10,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://sector-efe.net"
 twitter_username: defvol
 github_username:  defvol
+linkedin_username: rowil
 
 # Build settings
 markdown: kramdown
