@@ -1,13 +1,13 @@
-title: Sector efe
+title: Sector f
 tagline: "A programmer's portfolio and blog"
-email: rod@sector-efe.net
+email: rod@sector-f.net
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website for Rod* Wilhelmy A.K.A. defvol (formerly rodowi).
   Here you'll find my portfolio and some technical blog posts.
   Hope you enjoy it.
   Peace.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://sector-efe.net"
+url: "http://sector-f.net"
 twitter_username: defvol
 github_username:  defvol
 linkedin_username: rowil
@@ -26,7 +26,7 @@ paginate: 5
 # About/contact
 author:
   name:              Rod Wilhelmy
-  email:             rod@sector-efe.net
+  email:             rod@sector-f.net
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
