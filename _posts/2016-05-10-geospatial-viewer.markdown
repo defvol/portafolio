@@ -15,7 +15,7 @@ topics:
 
 ![visualizing geospatial data](/public/img/mbview-1.jpg)
 
-While working as a data engineer for [Mapbox](https://www.mapbox.com/), I built a tool for inspecting dense geospatial files on a browser. The tool become pretty handy for debugging, research, and analysis.
+While working as a data engineer for [Mapbox](https://www.mapbox.com/), I built a tool for inspecting dense geospatial files on a browser. This tool, called [mbview][mbview], become pretty handy for debugging, research, and analysis.
 
 [MBTiles](https://docs.mapbox.com/help/glossary/mbtiles/) is an efficient file format to store layers of data that makes a map tile. You can build them out of many sources, slices, queries, and filters. But when it comes to [OpenStreetMap][OSM], the data is so rich and dense that it becomes cumbersome to upload to the Mapbox platform just for debugging. The ideal workflow would be to inspect locally and upload the final product to the Mapbox editor for styling and deployment.
 
