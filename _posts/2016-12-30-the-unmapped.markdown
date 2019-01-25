@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Automating the search of unmapped roads in satellite imagery"
-date:   2017-02-01 19:41:14 -0800
+date:   2016-12-30 19:41:14 -0800
 categories: posts
 technologies:
 - tensorflow
