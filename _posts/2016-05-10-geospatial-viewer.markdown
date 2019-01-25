@@ -15,19 +15,18 @@ topics:
 
 ![visualizing geospatial data](/public/img/mbview-1.jpg)
 
-While working as a data engineer for [Mapbox](https://www.mapbox.com/), I built a tool for inspecting dense geospatial files on a browser. This command-line program, called [mbview][mbview], become pretty handy for debugging, research, and analysis.
+While working as a data engineer for [Mapbox](https://www.mapbox.com/), I built a tool for inspecting dense geospatial files locally. This command-line program, called [mbview][mbview], came pretty handy for debugging, research, and analysis.
 
-[MBTiles](https://docs.mapbox.com/help/glossary/mbtiles/) is an efficient file format to store layers of data that makes a map tile. You can build them out of many sources, slices, queries, and filters. But when it comes to [OpenStreetMap][OSM], the data is so rich and dense that it becomes cumbersome to upload to the Mapbox platform just for debugging. The ideal workflow would be to inspect locally and upload the final product to the Mapbox editor for styling and deployment.
+[MBTiles](https://docs.mapbox.com/help/glossary/mbtiles/) is an efficient file format for storing layers of data that makes a map tile. You can build them out of many sources, slices, queries, and filters. But when it comes to [OpenStreetMap][OSM], the data is so rich and dense that the development cycle on a cloud editor such as Mapbox, becomes cumbersome. With `mbview` you can prepare your data locally and upload the final product to the Mapbox editor for further styling and deployment.
 
-Running `mbview` on OpenStreetMap sources will
-show you how beautiful is the work that the OpenStreetMap
+You get some pretty cool results when running dense OpenStreetMap sources. See how beautiful is the work that the mapping
 community has achieved over the years.
 
 ![rich and dense](/public/img/mbview-2.jpg)
 
 ### Takeaways
 
-Thinking of software components as lego blocks allows you to quickly build new tools. I learned this when I was able to build the very first working version within a day just by reusing components of the Mapbox ecosystem.
+Designing software components as _lego blocks_ allows you to quickly iterate over new tools. I learned this myself when I was able to put together the very first version within a day by mixing components of the Mapbox ecosystem.
 
 OpenStreetMap is an incredible source of public data about our cities and spaces. Contributing and reusing is totally worth it.
 
